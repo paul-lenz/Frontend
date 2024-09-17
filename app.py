@@ -8,7 +8,7 @@ import requests
 # # Backend API URL (change this when switching to FastAPI)
 # API_URL = "http://127.0.0.1:8000/items"
  
-API_URL = "https://fast-h100.onrender.com//items"
+API_URL = "https://pythonfastapibackend.onrender.com//items"
  
  
 st.title("Streamlit Frontend for FastAPI")
