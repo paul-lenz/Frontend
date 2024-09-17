@@ -8,8 +8,10 @@ import requests
 # # Backend API URL (change this when switching to FastAPI)
 # API_URL = "http://127.0.0.1:8000/items"
  
-API_URL = "https://fast-h100.onrender.com/items"
+API_URL = "https://pythonfastapibackend.onrender.com//items"
  
+ 
+st.title("Streamlit Frontend for FastAPI")
  
 # Fetch all items from the backend
 def fetch_items():
@@ -56,7 +58,6 @@ def delete_item(item_id):
     else:
         st.error(f"Error deleting item: {response.status_code}")
  
-st.title("Streamlit Frontend for FastAPI")
 # Streamlit UI
 st.subheader("Fetch Items")
 if st.button("Fetch All Items"):
